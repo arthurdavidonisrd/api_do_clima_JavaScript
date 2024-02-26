@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapercosmos.com/w/full/e/d/8/288387-3840x2160-desktop-4k-canada-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+section {
+    background-color: black;
+    opacity: 0.8;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+section input {
+    border-radius: 14px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #7c7c7c2b;
+    font-weight: bold;
+    color: #ffff;
+}
+
+button {
+    float: right;
+    border: 0;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.busca {
+    height: 15px;
+}
+
+h2, p{
+    padding: 5px;
+}
